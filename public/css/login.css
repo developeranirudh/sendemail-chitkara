@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(68, 68, 138);
+    }
+section{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    background-color: aliceblue;
+    font-family: monospace;
+    font-size: 15px;
+    height: 150px;
+}
+input,button{
+    margin-left: 10px;
+    margin-top: 20px;
+}
+#m1{
+ height:100px
+}
+input{
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    height: 20px;
+    background-color: rgb(189, 196, 202);
+    font-family: monospace;
+    font-size: 18px;
+}
+button{
+    width: 50%;
+    border-radius: 10px;
+    height: 30px;
+    background-color:rgb(68, 68, 138);
+    color: aliceblue ;
+    font-size: 18px;
+}
+ul li{
+    list-style: none;
+}
+

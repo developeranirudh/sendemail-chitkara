@@ -1,0 +1,30 @@
+<%- include("../partials/header.ejs") %>
+<%-include("../partials/navbar.ejs") %>
+<h1 id="a1">Welcome To Visitor Security Check In !!!</h1>
+<section id="s1">
+    <form action="/v1/checkIn" method="POST">
+    <h1>CheckIn Form</h1>
+     <input  type="text" id="Name" placeholder="Name" name="name" required>
+     <br>
+     <br>
+     <br>
+     <input type="email" id="Email" placeholder="Enter your E-mail" name="email" required>
+     <br>
+     <br>
+     <br>
+     <input type="number" maxlength="2"  placeholder="Age" name="age" required>
+     <br>
+     <br>
+     <br>
+     <input type="text" placeholder="Address" name="address" required>
+     <br>
+     <br>
+     <br>
+     <input type="number" maxlength="10"  placeholder="PhoneNumber" name="phone" required>
+     <br>
+     <br>
+     <br>
+     <button id="submit"type="submit">CheckIn</button>
+    </form>
+</section>
+<%- include("../partials/footer.ejs") %>

@@ -1,0 +1,12 @@
+<%- include("../partials/header1.ejs") %>
+<body>
+<%-include("../partials/navbar.ejs") %>
+<section>
+<img id=m1 src="https://img.icons8.com/nolan/74/gmail.png"/>
+<form  action="/v1/checkout" method="post">
+    <input type="string" name="email" placeholder="Enter your email" required>
+    <button type="submit">CheckOut</button>
+</form>
+</section>
+</body>
+</html>
