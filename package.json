@@ -4,7 +4,7 @@
   "description": "App for send mail to user",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon  app.js"
+    "start": "node app.js"
   },
   "author": "anirudh",
   "license": "ISC",
